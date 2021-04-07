@@ -212,7 +212,7 @@ def sortBooksByYear(catalog, year, fraction, rank):
     stop_memory = getMemory()
     stop_time = getTime()
 
-    # finaliza el procesos para medir memoria
+    # finaliza el proceso para medir memoria
     tracemalloc.stop()
 
     # calculando la diferencia de tiempo y memoria
