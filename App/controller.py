@@ -230,7 +230,9 @@ def getTime():
     """
     devuelve el instante tiempo de procesamiento en milisegundos
     """
+    time.process_time()
     return float(time.perf_counter()*1000)
+    
 
 
 def getMemory():
